@@ -1,0 +1,26 @@
+site_name: Today I Learn
+site_url: "https://pages.github.com/todayilean/learn"
+
+theme:
+    name: 'readthedocs'
+    collapse_by_default: True
+    highlights: True
+    sticky_navigation: True
+extra_css: [Styles/extra.css]
+
+nav:
+    - What you learn User Guide:
+      - NODEJS: index.md
+      
+
+plugins:
+    - search # necessary for search to work
+    - git-revision-date-localized
+    
+markdown_extensions:
+    - toc:
+        permalink: "#"
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - attr_list
