@@ -9,8 +9,14 @@ theme:
 extra_css: [Styles/extra.css]
 
 nav:
-    - What you learn User Guide:
-      - NODEJS: index.md
+    - What you learn:
+      - AWS: aws.md 
+      - NODEJS: nodejs.md
+      - Python: python.md
+      - Docker: docker.md
+      - GoLang: golang.md
+      - Jenkins: jenkins.md
+      - Kubernetes: kubernetes.md
       
 
 plugins:
