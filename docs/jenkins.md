@@ -1,13 +1,11 @@
 # Jenkins Learn
 
-## Docker
+## Jenkins installation using docker
 
->systemctl start docker
+###Create a folder as volume to attach to jenkins like 
+/home/awankhede/developement/docker/jenkins_home/
+>sudo chown -R 1000:1000 jenkins_home/
 
->docker version
+>docker run -p 8080:8080 -p 50000:50000 --restart always -v /home/awankhede/developement/docker/jenkins_home/:/var/jenkins_home jenkins/jenkins:lts-jdk11
 
->docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
-
->docker ps
-
->docker exec -it some-mysql bash
+>localhost:8080/restart to restart jennkins.
