@@ -1,5 +1,6 @@
 ### Welcome to Today I Learn
-Documentation -> https://pages.github.com/todayilearn/
+Documentation -> https://amolwank.github.io/todayIlearn/
+
 
 ### Documentation Authoring how-to:
 
