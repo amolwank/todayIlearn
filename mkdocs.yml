@@ -10,7 +10,7 @@ extra_css: [Styles/extra.css]
 
 nav:
     - What you learn:
-      - RAW: ../raw_data.md
+      - RAW: raw_data.md
       - AWS: aws.md 
       - NODEJS: nodejs.md
       - Python: python.md
