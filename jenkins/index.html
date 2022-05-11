@@ -63,7 +63,11 @@
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Jenkins</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#docker">Docker</a>
+    <li class="toctree-l2"><a class="reference internal" href="#jenkins-installation-using-docker">Jenkins installation using docker</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#create-a-folder-as-volume-to-attach-to-jenkins-like">Create a folder as volume to attach to jenkins like</a>
+    </li>
+        </ul>
     </li>
     </ul>
                     </li>
@@ -108,13 +112,13 @@
             <div class="section">
               
                 <h1 id="jenkins-learn">Jenkins Learn<a class="headerlink" href="#jenkins-learn" title="Permanent link">#</a></h1>
-<h2 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">#</a></h2>
+<h2 id="jenkins-installation-using-docker">Jenkins installation using docker<a class="headerlink" href="#jenkins-installation-using-docker" title="Permanent link">#</a></h2>
+<h3 id="create-a-folder-as-volume-to-attach-to-jenkins-like">Create a folder as volume to attach to jenkins like<a class="headerlink" href="#create-a-folder-as-volume-to-attach-to-jenkins-like" title="Permanent link">#</a></h3>
+<p>/home/awankhede/developement/docker/jenkins_home/</p>
 <blockquote>
-<p>systemctl start docker</p>
-<p>docker version</p>
-<p>docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql</p>
-<p>docker ps</p>
-<p>docker exec -it some-mysql bash</p>
+<p>sudo chown -R 1000:1000 jenkins_home/</p>
+<p>docker run -p 8080:8080 -p 50000:50000 --restart always -v /home/awankhede/developement/docker/jenkins_home/:/var/jenkins_home jenkins/jenkins:lts-jdk11</p>
+<p>localhost:8080/restart to restart jennkins.</p>
 </blockquote>
               
             </div>

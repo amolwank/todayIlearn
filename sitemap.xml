@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://pages.github.com/todayilean/learn/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pages.github.com/todayilean/learn/aws/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pages.github.com/todayilean/learn/docker/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pages.github.com/todayilean/learn/golang/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pages.github.com/todayilean/learn/jenkins/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pages.github.com/todayilean/learn/kubernetes/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pages.github.com/todayilean/learn/nodejs/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://pages.github.com/todayilean/learn/python/</loc>
-         <lastmod>2022-05-10</lastmod>
+         <lastmod>2022-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://pages.github.com/todayilean/learn/raw_data/</loc>
+         <lastmod>2022-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
