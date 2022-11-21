@@ -1,0 +1,4 @@
+MySQL Update statement:
+>UPDATE Customers
+SET ConstactName='loma', City = 'Napgur'
+WHERE CustomerID = 1;
